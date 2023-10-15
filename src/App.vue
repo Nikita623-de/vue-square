@@ -1,17 +1,11 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="red-square"></div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+};
 </script>
 
 <style>
@@ -22,5 +16,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.red-square {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  background-color: red;
 }
 </style>
